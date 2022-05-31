@@ -28,7 +28,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 models:
     sde_dbt_tutorial:
-        # Applies to all files under models/marts/core/
-        marts:
-            core:
-                materialized: table
+        materialized: table
