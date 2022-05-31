@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: example_table
+
+    columns:
+      - name: id
+      - name: value
+      - name: ts
