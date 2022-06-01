@@ -3,7 +3,7 @@ with transformed as (
     select
         id,
         ts
-    from jaffle_shop.example_table
+    from {{ source('public', 'example_table') }}
 
 )
 
